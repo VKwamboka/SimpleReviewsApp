@@ -33,8 +33,8 @@ export default function App() {
     return null;
   }
    return(
-      <Navigator/>
-      // <Home/>
+      <Navigator onLayout={onLayoutRootView}/>
+      // <Home onLayout={onLayoutRootView}/>
      
     );
     // <Home onLayout={onLayoutRootView} />
