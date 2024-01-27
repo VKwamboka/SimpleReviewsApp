@@ -5,6 +5,7 @@ import { useState } from "react";
 import { AppLoading } from 'expo';
 import { useFonts } from 'expo-font';
 import * as SplashScreen from 'expo-splash-screen';
+import Navigator from './routes/homeStack'
 
 
 SplashScreen.preventAutoHideAsync();
@@ -32,8 +33,11 @@ export default function App() {
     return null;
   }
    return(
-      <Home onLayout={onLayoutRootView} />
+      <Navigator/>
+      // <Home/>
+     
     );
+    // <Home onLayout={onLayoutRootView} />
 
   // if (fontsLoaded) {
   //   return(
