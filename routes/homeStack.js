@@ -14,9 +14,9 @@ const screens = {
     },
     ReviewDetails:{
         screen:ReviewDetails,
-        navigationOptions:{
-            // headerStyle:{backgroundColor:'#eee'}
-        }
+        // navigationOptions:{
+        //     // headerStyle:{backgroundColor:'#eee'}
+        // }
     }
 }
 const Homestack = createStackNavigator(screens,
@@ -28,4 +28,4 @@ const Homestack = createStackNavigator(screens,
         }
     });
 
-export default createAppContainer(Homestack);
+export default Homestack;

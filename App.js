@@ -5,7 +5,8 @@ import { useState } from "react";
 import { AppLoading } from 'expo';
 import { useFonts } from 'expo-font';
 import * as SplashScreen from 'expo-splash-screen';
-import Navigator from './routes/homeStack'
+import Navigator from './routes/draw'
+
 
 
 SplashScreen.preventAutoHideAsync();
